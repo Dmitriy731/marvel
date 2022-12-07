@@ -24,7 +24,7 @@ const App = () => {
                             <Route exact path="/marvel/comics">
                                 <ComicsPage />
                             </Route>
-                            <Route exact path="/comics/:comicId">
+                            <Route exact path="/marvel/comics/:comicId">
                                 <SingleComicPage />
                             </Route>
                             <Route path='*'>
