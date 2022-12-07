@@ -18,7 +18,7 @@ const App = () => {
                 <main>
                     <Suspense fallback={<Spinner/>}>
                         <Switch>
-                            <Route exact path="/">
+                            <Route exact path="/marvel">
                                 <MainPage />
                             </Route>
                             <Route exact path="/marvel/comics">
