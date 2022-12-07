@@ -7,7 +7,7 @@ const AppHeader = () => {
         <header className="app__header">
             <h1 className="app__title">
                 <NavLink
-                    onClick={() => {window.location.href="/"}}
+                    onClick={() => {window.location.href="/marvel"}}
                     to="/">
                     <span>Marvel</span> information portal
                 </NavLink>
@@ -17,12 +17,12 @@ const AppHeader = () => {
                     <li><NavLink
                         className="header_nav"
                         exact
-                        onClick={() => {window.location.href="/"}}
+                        onClick={() => {window.location.href="/marvel"}}
                         to="/">Characters</NavLink></li>
                     /
                     <li><NavLink
                         className="header_nav"
-                        onClick={() => {window.location.href="/comics"}}
+                        onClick={() => {window.location.href="/marvel/comics"}}
                         to="/comics">Comics</NavLink></li>
                 </ul>
             </nav>
