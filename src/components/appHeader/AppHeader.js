@@ -22,8 +22,8 @@ const AppHeader = () => {
                     /
                     <li><NavLink
                         className="header_nav"
-                        onClick={() => {window.location.href="/comics"}}
-                        to="/comics">Comics</NavLink></li>
+                        onClick={() => {window.location.href="/marvel/comics"}}
+                        to="/marvel/comics">Comics</NavLink></li>
                 </ul>
             </nav>
         </header>
