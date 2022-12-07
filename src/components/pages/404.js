@@ -7,9 +7,9 @@ const Page404 = () => {
             <ErrorMessage/>
             <p style={{'textAlign': 'center', 'fontWeight': 'bold', 'fontSize': '24px'}}>Page doesn't exist</p>
             <Link
-                onClick={() => {window.location.href="/"}}
+                onClick={() => {window.location.href="/marvel/"}}
                 style={{'display':'block','textAlign':'center','fontWeight':'bold','fontSize':'24px', 'marginTop':'30px'}}
-                to='https://dmitriy731.github.io/marvel/'>Back to main page</Link>
+                to='/marvel/'>Back to main page</Link>
         </div>
     )
 }

@@ -58,7 +58,7 @@ const View = ({comic}) => {
             </div>
             <Link
                 to="https://dmitriy731.github.io/marvel/comics"
-                onClick={() => {window.location.href="/comics"}}
+                onClick={() => {window.location.href="/marvel/comics"}}
                 className="single-comic__back">Back to all</Link>
         </div>
 
