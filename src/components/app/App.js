@@ -27,7 +27,7 @@ const App = () => {
                             <Route exact path="/comics/:comicId">
                                 <SingleComicPage />
                             </Route>
-                            <Route path='/marvel/*'>
+                            <Route path='/*'>
                                 <Page404/>
                             </Route>
                         </Switch>
