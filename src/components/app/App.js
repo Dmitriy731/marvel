@@ -18,16 +18,16 @@ const App = () => {
                 <main>
                     <Suspense fallback={<Spinner/>}>
                         <Switch>
-                            <Route exact path="/">
+                            <Route exact path="https://dmitriy731.github.io/marvel/">
                                 <MainPage />
                             </Route>
-                            <Route exact path="/comics">
+                            <Route exact path="https://dmitriy731.github.io/marvel/comics">
                                 <ComicsPage />
                             </Route>
-                            <Route exact path="/comics/:comicId">
+                            <Route exact path="https://dmitriy731.github.io/marvel/comics/:comicId">
                                 <SingleComicPage />
                             </Route>
-                            <Route path='*'>
+                            <Route path='https://dmitriy731.github.io/marvel/*'>
                                 <Page404/>
                             </Route>
                         </Switch>

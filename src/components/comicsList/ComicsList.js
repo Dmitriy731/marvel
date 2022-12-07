@@ -45,7 +45,7 @@ const ComicsList = () => {
                     className="comics__item">
                     <Link
                         onClick={() => {window.location.href=`/comics/${item.id}`}}
-                        to={`/comics/${item.id}}`}>
+                        to={`https://dmitriy731.github.io/marvel/comics/${item.id}}`}>
                         <img src={item.thumbnail} alt={item.name} className="comics__item-img"/>
                         <div className="comics__item-name">{item.title}</div>
                         <div className="comics__item-price">{item.price}</div>

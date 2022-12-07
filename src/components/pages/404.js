@@ -9,7 +9,7 @@ const Page404 = () => {
             <Link
                 onClick={() => {window.location.href="/"}}
                 style={{'display':'block','textAlign':'center','fontWeight':'bold','fontSize':'24px', 'marginTop':'30px'}}
-                to='/'>Back to main page</Link>
+                to='https://dmitriy731.github.io/marvel/'>Back to main page</Link>
         </div>
     )
 }
