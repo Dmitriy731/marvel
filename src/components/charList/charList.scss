@@ -5,8 +5,10 @@
         margin-top: 50px;
         display: grid;
         grid-template-columns: 650px 425px;
+        grid-template-rows: auto 1fr;
         column-gap: 25px;
         align-items: start;
+
     }
     &__grid {
         display: grid;
@@ -39,5 +41,8 @@
         line-height: 29px;
         text-transform: uppercase;
         color: #fff;
+    }
+    &__list {
+        grid-row: 1/3;
     }
 }
